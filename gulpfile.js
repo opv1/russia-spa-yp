@@ -1,5 +1,5 @@
 const { src, dest, series, watch } = require('gulp');
-const deploy = require('gulp-deploy-git');
+const ghPages = require('gulp-gh-pages');
 const include = require('gulp-file-include');
 const sync = require('browser-sync').create();
 const del = require('del');
@@ -82,12 +82,7 @@ function server() {
 }
 
 function publish() {
-  return src('./dist/**/*', { read: false }).pipe(
-    deploy({
-      repository: 'https://github.com/opv1/yp-course-2.git',
-      branches: ['gh-pages'],
-    })
-  );
+  return src('./dist/**/*').pipe(ghPages());
 }
 
 exports.build = series(clear, fonts, images, htmlRu, htmlEn, scss);
