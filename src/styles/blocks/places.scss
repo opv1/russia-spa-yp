@@ -1,0 +1,145 @@
+.places {
+  margin: 0 auto;
+  max-width: 984px;
+  width: 90%;
+}
+
+.places__image {
+  width: 100%;
+  padding-top: 60px;
+}
+
+.places__left-block {
+  display: flex;
+  flex-direction: column;
+  max-width: 460px;
+  padding-right: 40px;
+}
+
+.places__paragraph {
+  margin: 0;
+  padding-bottom: 36px;
+  max-width: 484px;
+  font-size: 18rem;
+  line-height: 1.5;
+  color: #ffffff;
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.places__place {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 92px;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.places__right-block {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-left: 0;
+}
+
+.places__title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 72rem;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.places__url-heading {
+  margin: 0;
+  padding-bottom: 16px;
+  max-width: 484px;
+  font-size: 12rem;
+  line-height: 1.5;
+  letter-spacing: 0.2em;
+  color: #aaaaaa;
+  text-transform: uppercase;
+}
+
+.places__url {
+  margin: 0;
+  max-width: 484px;
+  font-size: 18rem;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #ffffff;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.places__website {
+  padding-bottom: 60px;
+  max-width: 484px;
+}
+
+@media screen and (max-width: 1023px) {
+  .places__left-block {
+    padding-right: 32px;
+    max-width: 360px;
+  }
+
+  .places__right-block {
+    max-width: 352px;
+  }
+
+  .places__title {
+    font-size: 42rem;
+  }
+
+  .places__paragraph {
+    font-size: 16rem;
+  }
+
+  .places__image {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__website {
+    display: none;
+  }
+
+  .places__place {
+    flex-wrap: wrap;
+  }
+
+  .places__paragraph {
+    font-size: 16rem;
+    padding-top: 24px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .places {
+    width: 100%;
+  }
+
+  .places__place {
+    padding-top: 64px;
+  }
+
+  .places__title {
+    padding-left: 16px;
+    font-size: 32rem;
+  }
+
+  .places__paragraph {
+    padding-left: 16px;
+    line-height: 27px;
+  }
+
+  .places__left-block {
+    padding-right: 0;
+    max-width: 375px;
+  }
+}

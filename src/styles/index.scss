@@ -1,0 +1,15 @@
+@import '~normalize.css/normalize';
+@import './fonts.scss', './blocks/additional.scss', './blocks/barentsburg.scss',
+  './blocks/comments.scss', './blocks/content-subtitle.scss',
+  './blocks/content-title.scss', './blocks/content.scss', './blocks/cover.scss',
+  './blocks/emblem.scss', './blocks/footer.scss', './blocks/header.scss',
+  './blocks/intro.scss', './blocks/lead.scss', './blocks/page.scss',
+  './blocks/photo-grid.scss', './blocks/places.scss', './blocks/video.scss';
+
+html {
+  font-size: 1px;
+}
+
+body {
+  background-color: #2a2c2f;
+}

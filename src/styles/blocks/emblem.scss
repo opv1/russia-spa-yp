@@ -1,0 +1,47 @@
+.emblem {
+  display: none;
+  /*display: flex;*/
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 82px;
+  width: 1184px;
+}
+
+.emblem__city {
+  margin: 0px;
+  margin-top: 35px;
+  width: 208px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: center;
+  color: #cccccc;
+}
+
+.emblem__image {
+  width: 186px;
+  height: 226px;
+}
+
+.emblem__item-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.emblem__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  width: 208px;
+}
+
+.emblem__title {
+  margin: 0px;
+  margin-bottom: 82px;
+  width: 443px;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 46px;
+  color: #ffffff;
+}
