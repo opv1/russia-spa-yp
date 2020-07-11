@@ -71,7 +71,7 @@ function clear() {
   return del('./dist');
 }
 
-function server() {
+function serve() {
   sync.init({
     server: './dist',
   });
@@ -86,5 +86,5 @@ function publish() {
 }
 
 exports.build = series(clear, fonts, images, htmlRu, htmlEn, scss);
-exports.server = series(clear, fonts, images, htmlRu, htmlEn, scss, server);
+exports.serve = series(clear, fonts, images, htmlRu, htmlEn, scss, serve);
 exports.deploy = series(publish);
