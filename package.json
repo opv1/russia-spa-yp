@@ -1,8 +1,7 @@
 {
-  "name": "work-project-course-2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "yp-course-2",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +16,7 @@
   },
   "homepage": "https://github.com/opv1/yp-course-2#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.10",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",

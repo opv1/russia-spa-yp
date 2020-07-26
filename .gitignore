@@ -1,7 +1,7 @@
 # dependencies
-/.publish
-/node_modules
 /dist
+/node_modules
+/.publish
 
 # Windows thumbnail cache files
 Thumbs.db
