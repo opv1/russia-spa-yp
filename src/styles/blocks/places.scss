@@ -1,19 +1,19 @@
 .places {
   margin: 0 auto;
-  max-width: 984px;
   width: 90%;
+  max-width: 984px;
 }
 
 .places__image {
-  width: 100%;
   padding-top: 60px;
+  width: 100%;
 }
 
 .places__left-block {
   display: flex;
   flex-direction: column;
-  max-width: 460px;
   padding-right: 40px;
+  max-width: 460px;
 }
 
 .places__paragraph {
@@ -22,7 +22,8 @@
   max-width: 484px;
   font-size: 18rem;
   line-height: 1.5;
-  color: #ffffff;
+  color: #fff;
+
   &:last-child {
     padding-bottom: 0;
   }
@@ -32,6 +33,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 92px;
+
   &:first-child {
     margin-top: 0;
   }
@@ -46,10 +48,10 @@
 
 .places__title {
   margin: 0;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 72rem;
   line-height: 1;
-  color: #ffffff;
+  color: #fff;
 }
 
 .places__url-heading {
@@ -59,8 +61,8 @@
   font-size: 12rem;
   line-height: 1.5;
   letter-spacing: 0.2em;
-  color: #aaaaaa;
   text-transform: uppercase;
+  color: #aaa;
 }
 
 .places__url {
@@ -69,7 +71,8 @@
   font-size: 18rem;
   line-height: 1.5;
   text-decoration-line: underline;
-  color: #ffffff;
+  color: #fff;
+
   &:hover {
     opacity: 0.7;
   }
@@ -113,9 +116,9 @@
   }
 
   .places__paragraph {
-    font-size: 16rem;
     padding-top: 24px;
     padding-bottom: 0;
+    font-size: 16rem;
   }
 }
 

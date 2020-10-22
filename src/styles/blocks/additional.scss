@@ -14,14 +14,14 @@
 
 .additional__heading {
   position: absolute;
-  z-index: 1;
   top: 30px;
-  margin: 0px;
+  z-index: 1;
+  margin: 0;
   width: 248px;
   font-weight: 900;
   font-size: 27px;
   line-height: 29px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .additional__item {
@@ -37,18 +37,18 @@
 }
 
 .additional__item-bg img {
-  width: 100%;
   border-radius: 5px;
+  width: 100%;
   opacity: 0.5;
 }
 
 .additional__text {
   position: absolute;
-  z-index: 1;
   bottom: 30px;
-  margin: 0px;
+  z-index: 1;
+  margin: 0;
   width: 248px;
   font-size: 14px;
   line-height: 20px;
-  color: #ffffff;
+  color: #fff;
 }

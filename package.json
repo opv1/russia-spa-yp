@@ -1,14 +1,17 @@
 {
   "name": "yp-course-2",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Russia",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build",
+    "dev": "gulp serve"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/opv1/yp-course-2.git"
   },
+  "keywords": [],
   "author": "Pavel Ovechkin",
   "license": "ISC",
   "bugs": {
@@ -16,8 +19,8 @@
   },
   "homepage": "https://github.com/opv1/yp-course-2#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.12",
-    "del": "^5.1.0",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
@@ -29,7 +32,12 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^4.1.0",
     "node-normalize-scss": "^8.1.2",
-    "node-sass-tilde-importer": "^1.0.2"
+    "node-sass-tilde-importer": "^1.0.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0"
   },
   "dependencies": {
     "lodash.template": "^4.5.0"

@@ -1,7 +1,7 @@
 .video {
   margin: 0 auto;
-  max-width: 1184px;
   width: 90%;
+  max-width: 1184px;
 }
 
 .video__container {
@@ -9,19 +9,19 @@
   justify-content: center;
   margin: auto;
   padding-top: 72px;
-  max-width: 1184px;
   width: 100%;
+  max-width: 1184px;
 }
 
 .video__duration {
   margin: 0;
   margin-top: 94px;
   margin-left: 30px;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12rem;
   line-height: 1;
   letter-spacing: 0.3em;
-  color: #ffffff;
+  color: #fff;
 }
 
 .video__icon_type_play {
@@ -38,58 +38,60 @@
   flex-direction: column;
   margin: 0;
   margin-right: 16px;
+  width: 100%;
   max-width: 583px;
   max-height: 323px;
-  width: 100%;
   text-decoration: none;
+
   &:hover {
     opacity: 0.8;
   }
+
   &:last-child {
     margin-right: 0;
   }
 }
 
 .video__item_kamchatka-bg {
-  background-blend-mode: darken;
-  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
   background-image: url('../images/kamchatka.jpg');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 
 .video__item_observatory-bg {
-  background-blend-mode: darken;
-  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
   background-image: url('../images/observatory.jpg');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 
 .video__subtitle {
   margin: 0;
-  margin-left: 30px;
   margin-bottom: 30px;
-  font-weight: normal;
+  margin-left: 30px;
+  font-weight: 400;
   font-size: 14rem;
   line-height: 1;
-  color: #ffffff;
+  color: #fff;
 }
 
 .video__title {
   margin: 0;
   margin-top: 12px;
-  margin-left: 30px;
   margin-bottom: 18px;
+  margin-left: 30px;
   max-width: 322px;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 36rem;
   line-height: 1.2;
-  color: #ffffff;
+  color: #fff;
 }
 
 @media screen and (min-width: 1280px) {
@@ -119,8 +121,8 @@
 @media screen and (max-width: 1023px) {
   .video__title {
     margin-top: 8px;
-    margin-left: 24px;
     margin-bottom: 12px;
+    margin-left: 24px;
     font-size: 24rem;
   }
 
@@ -130,8 +132,8 @@
   }
 
   .video__duration {
-    margin-left: 24px;
     margin-top: 17px;
+    margin-left: 24px;
   }
 
   .video__item-block {
@@ -139,8 +141,8 @@
   }
 
   .video__subtitle {
-    margin-left: 24px;
     margin-bottom: 16px;
+    margin-left: 24px;
   }
 }
 

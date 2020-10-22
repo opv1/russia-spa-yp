@@ -1,7 +1,7 @@
 .comments {
   margin: 0 auto;
-  max-width: 1184px;
   width: 90%;
+  max-width: 1184px;
 }
 
 .comment {
@@ -13,25 +13,25 @@
 .comments__author {
   margin: 0;
   max-width: 382px;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 14rem;
   line-height: 1.5;
-  color: #ffffff;
+  color: #fff;
 }
 
 .comments__container {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
   padding-top: 66px;
   max-width: 1184px;
 }
 
 .comments__image {
   margin-bottom: 42px;
+  border-radius: 50%;
   width: 97px;
   height: 97px;
-  border-radius: 50%;
 }
 
 .comments__image img {
@@ -42,10 +42,10 @@
   margin: 0;
   padding-bottom: 24px;
   max-width: 382px;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14rem;
   line-height: 1.5;
-  color: #ffffff;
+  color: #fff;
 }
 
 @media screen and (max-width: 1273px) {

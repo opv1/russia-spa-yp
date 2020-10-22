@@ -8,3 +8,13 @@
 Верстка адаптивной страницы с макета (desktop first)
 
 ## [Увидеть проект](https://opv1.github.io/yp-course-2/)
+
+## Настройка проекта
+
+```
+npm run build
+```
+
+```
+npm run dev
+```
