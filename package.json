@@ -1,5 +1,5 @@
 {
-  "name": "yp-course-2",
+  "name": "russia-spa-yp",
   "version": "1.0.0",
   "description": "Russia",
   "private": true,
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/opv1/yp-course-2.git"
+    "url": "git+https://github.com/opv1/russia-spa-yp.git"
   },
   "keywords": [],
   "author": "Pavel Ovechkin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/opv1/yp-course-2/issues"
+    "url": "https://github.com/opv1/russia-spa-yp/issues"
   },
-  "homepage": "https://github.com/opv1/yp-course-2#readme",
+  "homepage": "https://github.com/opv1/russia-spa-yp#readme",
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "del": "^6.0.0",

@@ -2,6 +2,7 @@
 /dist
 /node_modules
 /.publish
+*.git
 
 # Windows thumbnail cache files
 Thumbs.db
