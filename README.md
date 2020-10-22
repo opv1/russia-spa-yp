@@ -8,7 +8,7 @@
 Верстка адаптивной страницы с макета  
 Стек: HTML, CSS, SCSS, Gulp
 
-## [Увидеть проект](https://opv1.github.io/yp-course-2/)
+## [Увидеть проект](https://opv1.github.io/russia-spa-yp/)
 
 ## Настройка проекта
 
