@@ -7,7 +7,7 @@
 
 Верстка адаптивной страницы с макета
 
-Стек: HTML, CSS, SCSS, Gulp
+Стек: HTML, Scss
 
 ## [Увидеть проект](https://opv1.github.io/russia-spa-yp/)
 

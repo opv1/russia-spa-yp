@@ -1,10 +1,11 @@
 @import '~normalize.css/normalize';
-@import './fonts.scss', './blocks/additional.scss', './blocks/barentsburg.scss',
-  './blocks/comments.scss', './blocks/content-subtitle.scss',
-  './blocks/content-title.scss', './blocks/content.scss', './blocks/cover.scss',
-  './blocks/emblem.scss', './blocks/footer.scss', './blocks/header.scss',
-  './blocks/intro.scss', './blocks/lead.scss', './blocks/page.scss',
-  './blocks/photo-grid.scss', './blocks/places.scss', './blocks/video.scss';
+@import './fonts.scss', './blocks/_additional.scss',
+  './blocks/_barentsburg.scss', './blocks/_comments.scss',
+  './blocks/_content-subtitle.scss', './blocks/_content-title.scss',
+  './blocks/_content.scss', './blocks/_cover.scss', './blocks/_emblem.scss',
+  './blocks/_footer.scss', './blocks/_header.scss', './blocks/_intro.scss',
+  './blocks/_lead.scss', './blocks/_page.scss', './blocks/_photo-grid.scss',
+  './blocks/_places.scss', './blocks/_video.scss';
 
 html {
   font-size: 1px;
