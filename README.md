@@ -9,7 +9,7 @@
 
 Стек: HTML, Scss
 
-## [Увидеть проект](https://opv1.github.io/russia-spa-yp/)
+## [Увидеть проект](https://opv1.github.io/russia-yp/)
 
 ## Настройка проекта
 

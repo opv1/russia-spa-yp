@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/opv1/russia-spa-yp.git"
+    "url": "git+https://github.com/opv1/russia-yp.git"
   },
   "keywords": [],
   "author": "Pavel Ovechkin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/opv1/russia-spa-yp/issues"
+    "url": "https://github.com/opv1/russia-yp/issues"
   },
-  "homepage": "https://github.com/opv1/russia-spa-yp#readme",
+  "homepage": "https://github.com/opv1/russia-yp#readme",
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "del": "^6.0.0",
