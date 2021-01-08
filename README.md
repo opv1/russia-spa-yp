@@ -3,15 +3,9 @@
   <img src="https://img.shields.io/badge/made%20by-opv1-blue.svg">
 </p>
 
-## Описание
+## [See the project](https://opv1.github.io/russia-yp/)
 
-Верстка адаптивной страницы с макета
-
-Стек: HTML, Scss
-
-## [Увидеть проект](https://opv1.github.io/russia-yp/)
-
-## Настройка проекта
+## Setup
 
 ```
 npm run build

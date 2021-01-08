@@ -1,5 +1,5 @@
 {
-  "name": "russia-spa-yp",
+  "name": "russia-yp",
   "version": "1.0.0",
   "description": "Russia",
   "private": true,
@@ -39,8 +39,5 @@
     "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.18.0"
-  },
-  "dependencies": {
-    "lodash.template": "^4.5.0"
   }
 }
