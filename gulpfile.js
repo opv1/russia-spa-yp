@@ -5,7 +5,7 @@ const sync = require('browser-sync').create()
 const del = require('del')
 const concat = require('gulp-concat')
 const htmlmin = require('gulp-htmlmin')
-const sass = require('gulp-sass')
+const sass = require('gulp-dart-sass')
 const csso = require('gulp-csso')
 const autoprefixer = require('gulp-autoprefixer')
 const imagemin = require('gulp-imagemin')
@@ -60,11 +60,15 @@ function scss() {
 }
 
 function images() {
-  return src('./src/images/*').pipe(imagemin()).pipe(dest('./dist/images'))
+  return src('./src/assets/images/*')
+    .pipe(imagemin())
+    .pipe(dest('./dist/assets/images'))
 }
 
 function fonts() {
-  return src('./src/fonts/*').pipe(fontmin()).pipe(dest('./dist/fonts'))
+  return src('./src/assets/fonts/*')
+    .pipe(fontmin())
+    .pipe(dest('./dist/assets/fonts'))
 }
 
 function clear() {
