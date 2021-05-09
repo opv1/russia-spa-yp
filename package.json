@@ -17,9 +17,6 @@
   "bugs": {
     "url": "https://github.com/opv1/russia-layout/issues"
   },
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  },
   "devDependencies": {
     "browser-sync": "^2.26.14",
     "del": "^6.0.0",

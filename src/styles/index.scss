@@ -1,16 +1,4 @@
-@import '~normalize.css';
-@import './fonts.scss', './blocks/_additional.scss',
-  './blocks/_barentsburg.scss', './blocks/_comments.scss',
-  './blocks/_content-subtitle.scss', './blocks/_content-title.scss',
-  './blocks/_content.scss', './blocks/_cover.scss', './blocks/_emblem.scss',
-  './blocks/_footer.scss', './blocks/_header.scss', './blocks/_intro.scss',
-  './blocks/_lead.scss', './blocks/_page.scss', './blocks/_photo-grid.scss',
-  './blocks/_places.scss', './blocks/_video.scss';
-
-html {
-  font-size: 1px;
-}
-
-body {
-  background-color: #2a2c2f;
-}
+@import './fonts', './base', './blocks/additional', './blocks/barentsburg',
+  './blocks/comments', './blocks/cover', './blocks/emblems', './blocks/footer',
+  './blocks/header', './blocks/intro', './blocks/lead', './blocks/photos',
+  './blocks/places', './blocks/video';

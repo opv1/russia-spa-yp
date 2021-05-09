@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  @media screen and(max-width: 768px) {
+    font-size: 15px;
+  }
+}
+
+body {
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  background-color: #2a2c2f;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  min-width: 320px;
+  max-width: 1440px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+
+  section {
+    &:not(:last-child) {
+      margin-bottom: 7rem;
+    }
+  }
+}

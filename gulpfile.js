@@ -80,9 +80,9 @@ function serve() {
     server: './dist',
   })
 
-  watch('./src/parts/**.html', series(htmlRu)).on('change', sync.reload)
-  watch('./src/en/parts/**.html', series(htmlEn)).on('change', sync.reload)
-  watch('./src/styles/**.scss', series(scss)).on('change', sync.reload)
+  watch('./src/parts/**/*.html', series(htmlRu)).on('change', sync.reload)
+  watch('./src/en/parts/**/*.html', series(htmlEn)).on('change', sync.reload)
+  watch('./src/styles/**/*.scss', series(scss)).on('change', sync.reload)
 }
 
 function publish() {

@@ -1,0 +1,26 @@
+.photos {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 100%;
+
+  &__image {
+    width: 100%;
+    transition: transform 0.3s;
+
+    img {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
+}
+
+// grid-template-columns: repeat(auto-fill, minmax(150px, 150px));

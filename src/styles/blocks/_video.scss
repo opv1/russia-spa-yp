@@ -1,164 +1,97 @@
 .video {
-  margin: 0 auto;
-  width: 90%;
-  max-width: 1184px;
-}
-
-.video__container {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  padding-top: 72px;
-  width: 100%;
-  max-width: 1184px;
-}
-
-.video__duration {
-  margin: 0;
-  margin-top: 94px;
-  margin-left: 30px;
-  font-weight: 400;
-  font-size: 12rem;
-  line-height: 1;
-  letter-spacing: 0.3em;
-  color: #fff;
-}
-
-.video__icon_type_play {
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.video__icon {
-  max-width: 41px;
-}
-
-.video__item {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  margin-right: 16px;
+  align-items: center;
   width: 100%;
-  max-width: 583px;
-  max-height: 323px;
-  text-decoration: none;
 
-  &:hover {
-    opacity: 0.8;
+  &__title {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
   }
 
-  &:last-child {
-    margin-right: 0;
+  &__subtitle {
+    margin: 0;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
   }
-}
 
-.video__item_kamchatka-bg {
-  border-radius: 5px;
-  background-image: url('../images/kamchatka.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: darken;
-}
-
-.video__item_observatory-bg {
-  border-radius: 5px;
-  background-image: url('../images/observatory.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: darken;
-}
-
-.video__subtitle {
-  margin: 0;
-  margin-bottom: 30px;
-  margin-left: 30px;
-  font-weight: 400;
-  font-size: 14rem;
-  line-height: 1;
-  color: #fff;
-}
-
-.video__title {
-  margin: 0;
-  margin-top: 12px;
-  margin-bottom: 18px;
-  margin-left: 30px;
-  max-width: 322px;
-  font-weight: 900;
-  font-size: 36rem;
-  line-height: 1.2;
-  color: #fff;
-}
-
-@media screen and (min-width: 1280px) {
-  .video {
+  &__container {
+    display: flex;
+    justify-content: center;
     width: 100%;
   }
-}
 
-@media screen and (max-width: 1279px) {
-  .video__duration {
-    margin-top: 54px;
+  &__block {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0.5rem;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    height: 320px;
+    text-decoration: none;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    transition: background 0.3s;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      background-blend-mode: darken;
+    }
+
+    &:nth-child(1) {
+      background-image: url('../assets/images/kamchatka.jpg');
+    }
+
+    &:nth-child(2) {
+      background-image: url('../assets/images/observatory.jpg');
+    }
   }
 
-  .video__subtitle {
-    margin-bottom: 35px;
+  &__wrap {
+    display: flex;
+    flex-direction: column;
   }
 
-  .video__item-block {
-    max-height: 288px;
+  &__icon {
+    margin-bottom: 1rem;
+    width: 40px;
+    height: 40px;
+
+    img {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+    }
   }
 
-  .video__item {
-    max-width: 456px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .video__title {
-    margin-top: 8px;
-    margin-bottom: 12px;
-    margin-left: 24px;
-    font-size: 24rem;
+  &__duration {
+    margin: 0.1rem;
+    font-weight: 400;
+    color: #fff;
   }
 
-  .video__icon_type_play {
-    margin-top: 24px;
-    margin-left: 24px;
+  &__caption {
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #fff;
   }
 
-  .video__duration {
-    margin-top: 17px;
-    margin-left: 24px;
-  }
-
-  .video__item-block {
-    max-height: 200px;
-  }
-
-  .video__subtitle {
-    margin-bottom: 16px;
-    margin-left: 24px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .video__container {
-    flex-wrap: wrap;
-    max-height: 100%;
-  }
-
-  .video__item {
-    margin-right: 0;
-    margin-bottom: 8px;
-    min-height: 200px;
-  }
-
-  .video__item:last-child {
-    margin-bottom: 0;
+  &__author {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #fff;
   }
 }
