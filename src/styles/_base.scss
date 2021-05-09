@@ -6,6 +6,10 @@ html {
   @media screen and(max-width: 768px) {
     font-size: 15px;
   }
+
+  @media screen and(max-width: 425px) {
+    font-size: 14px;
+  }
 }
 
 body {
@@ -35,6 +39,16 @@ body {
   section {
     &:not(:last-child) {
       margin-bottom: 7rem;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content {
+    section {
+      &:not(:last-child) {
+        margin-bottom: 3.5rem;
+      }
     }
   }
 }

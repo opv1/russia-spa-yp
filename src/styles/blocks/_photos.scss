@@ -1,6 +1,7 @@
 .photos {
   display: grid;
   align-items: center;
+  justify-content: center;
   justify-items: center;
   grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
@@ -23,4 +24,8 @@
   }
 }
 
-// grid-template-columns: repeat(auto-fill, minmax(150px, 150px));
+@media screen and (max-width: 1024px) {
+  .photos {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}

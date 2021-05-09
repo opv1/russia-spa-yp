@@ -17,15 +17,12 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-
-    &:last-child {
-      padding: 0 1rem;
-    }
+    margin: 0.3rem;
   }
 
   &__title {
     margin: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-weight: 900;
     font-size: 3rem;
     color: #fff;
@@ -44,7 +41,7 @@
   &__website {
     display: flex;
     flex-direction: column;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   &__url {
@@ -70,6 +67,22 @@
 
     &:not(:last-child) {
       margin-bottom: 2rem;
+    }
+  }
+}
+
+@media screen and(max-width: 768px) {
+  .places {
+    &__place {
+      flex-direction: column;
+    }
+  }
+}
+
+@media screen and(max-width: 425px) {
+  .places {
+    &__text {
+      font-size: 1rem;
     }
   }
 }
