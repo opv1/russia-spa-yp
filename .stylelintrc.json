@@ -72,10 +72,6 @@
         "selector": "&--.+"
       },
       {
-        "type": "rule",
-        "selector": ".* &"
-      },
-      {
         "type": "at-rule",
         "name": "include",
         "hasBlock": true
@@ -664,7 +660,6 @@
     "unit-case": "lower",
     "unit-no-unknown": true,
     "unit-whitelist": null,
-    "value-keyword-case": "lower",
     "value-list-comma-newline-after": "always-multi-line",
     "value-list-comma-newline-before": "never-multi-line",
     "value-list-comma-space-after": "always-single-line",
@@ -713,7 +708,6 @@
     "scss/media-feature-value-dollar-variable": null,
     "scss/operator-no-newline-after": null,
     "scss/operator-no-newline-before": null,
-    "scss/operator-no-unspaced": true,
     "scss/partial-no-import": null,
     "scss/percent-placeholder-pattern": null,
     "scss/selector-no-redundant-nesting-selector": true,
