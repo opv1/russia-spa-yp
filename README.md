@@ -5,6 +5,10 @@
 
 ## [See the project](https://opv1.github.io/russia-layout)
 
+## Description
+
+Stack: HTML + Scss + Gulp
+
 ## Setup
 
 ```
